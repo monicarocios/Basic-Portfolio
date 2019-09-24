@@ -32,9 +32,11 @@ nav {
     display: block;
     background-color: #ffffff;
     border-color: #cccccc;
-    height: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+    margin-top: -8px;
+    padding: 20px;
+    margin-left: -8px;
+    width: 1230px;
 }
 
 h1 {
