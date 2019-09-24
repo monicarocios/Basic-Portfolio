@@ -24,10 +24,17 @@
 6. Dimensions:
    * The entire content and the main section content area is `960px` wide. */
 
+
+body {
+    background-image: url(../../../so-white.png)
+}
 nav {
     display: block;
     background-color: #ffffff;
     border-color: #cccccc;
+    height: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 h1 {
@@ -35,5 +42,13 @@ h1 {
     position: relative;
     background-color: #4aaaa5;
     margin-left: 35px;
-    
+    color: white;
+    padding: 20px;
+
+}
+
+.links {
+    display: inline;
+    position: relative;
+    float: right;
 }
